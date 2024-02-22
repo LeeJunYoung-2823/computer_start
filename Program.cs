@@ -23,6 +23,8 @@ class Program
             string browser2 = @"C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe";
 
             string program1 = @"C:\SMYSoft\SMemo\SMemo.exe";
+            string program2 = @"C:\Users\sweetbook15\AppData\Local\WorksMobile\NaverWorks\NaverWorks.exe";
+            string program3 = @"C:\Program Files (x86)\Kakao\KakaoTalk\KakaoTalk.exe";
 
             // 엑셀 프로그램 경로
             string excelAppPath = @"C:\Program Files\Microsoft Office 15\root\office15\EXCEL.EXE";
@@ -56,6 +58,9 @@ class Program
 
             // 프로그램 실행
             Process.Start(program1);
+            Process.Start(program2);
+            Process.Start(program3);
+
         } catch (Exception ex)
         {
             Console.WriteLine(ex.Message);
